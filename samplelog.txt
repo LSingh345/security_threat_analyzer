@@ -1,0 +1,29 @@
+May 31 09:12:44 ubuntu sshd[1023]: Failed password for invalid user admin from 192.168.1.45 port 54321 ssh2
+May 31 09:12:47 ubuntu sshd[1023]: Failed password for invalid user admin from 192.168.1.45 port 54321 ssh2
+May 31 09:12:50 ubuntu sshd[1023]: Failed password for invalid user admin from 192.168.1.45 port 54321 ssh2
+May 31 09:13:10 ubuntu sshd[1101]: Accepted password for lakshya from 10.0.0.12 port 60211 ssh2
+May 31 09:13:10 ubuntu sshd[1101]: pam_unix(sshd:session): session opened for user lakshya by (uid=0)
+May 31 09:14:02 ubuntu sudo:     lakshya : TTY=pts/0 ; PWD=/home/lakshya ; USER=root ; COMMAND=/usr/bin/apt update
+May 31 09:14:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by lakshya(uid=0)
+May 31 09:14:05 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May 31 09:20:11 ubuntu sshd[1204]: Failed password for root from 185.199.110.22 port 42110 ssh2
+May 31 09:20:14 ubuntu sshd[1204]: Failed password for root from 185.199.110.22 port 42110 ssh2
+May 31 09:20:17 ubuntu sshd[1204]: Failed password for root from 185.199.110.22 port 42110 ssh2
+May 31 09:20:20 ubuntu sshd[1204]: Failed password for root from 185.199.110.22 port 42110 ssh2
+May 31 09:20:23 ubuntu sshd[1204]: Failed password for root from 185.199.110.22 port 42110 ssh2
+May 31 09:20:26 ubuntu sshd[1204]: Failed password for root from 185.199.110.22 port 42110 ssh2
+May 31 09:22:01 ubuntu CRON[1302]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 31 09:22:01 ubuntu CRON[1302]: pam_unix(cron:session): session closed for user root
+May 31 09:30:44 ubuntu sshd[1401]: Accepted publickey for lakshya from 10.0.0.12 port 60245 ssh2
+May 31 09:30:44 ubuntu sshd[1401]: pam_unix(sshd:session): session opened for user lakshya by (uid=0)
+May 31 09:31:10 ubuntu sudo:     lakshya : TTY=pts/0 ; PWD=/home/lakshya ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+May 31 09:31:10 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=lakshya rhost=  user=lakshya
+May 31 09:31:12 ubuntu sudo:     lakshya : 3 incorrect password attempts
+May 31 09:45:55 ubuntu sshd[1502]: Failed password for invalid user test from 203.0.113.50 port 33822 ssh2
+May 31 09:46:01 ubuntu sshd[1502]: Failed password for invalid user test from 203.0.113.50 port 33822 ssh2
+May 31 09:46:07 ubuntu sshd[1502]: Failed password for invalid user test from 203.0.113.50 port 33822 ssh2
+May 31 09:46:13 ubuntu sshd[1502]: Failed password for invalid user test from 203.0.113.50 port 33822 ssh2
+May 31 09:46:19 ubuntu sshd[1502]: Failed password for invalid user test from 203.0.113.50 port 33822 ssh2
+May 31 09:46:25 ubuntu sshd[1502]: Failed password for invalid user test from 203.0.113.50 port 33822 ssh2
+May 31 09:50:01 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+May 31 09:50:01 ubuntu systemd[1]: Finished Daily apt upgrade and clean activities.
